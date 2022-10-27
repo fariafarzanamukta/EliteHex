@@ -56,8 +56,6 @@ const Register = () => {
             .catch(error => console.error(error))
     }
 
-
-
     return (
         <div>
 
@@ -113,7 +111,6 @@ const Register = () => {
                                 className="btn w-[80%] mx-auto mb-10"><FaGoogle className='mr-2 text-2xl' >
                                 </FaGoogle>Google Signin
                             </button>
-
                         </div>
                     </div>
                 </div>
