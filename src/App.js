@@ -28,17 +28,17 @@ function App() {
         {
           path: 'home',
           element: <Home></Home>,
-          loader: () => fetch(`http://localhost:5000/allcourses`)
+          loader: () => fetch(`https://course-server-sigma.vercel.app/allCourses`)
         },
         {
           path: 'courses',
           element: <Courses></Courses>,
-          loader: () => fetch(`http://localhost:5000/allCourses`)
+          loader: () => fetch(`https://course-server-sigma.vercel.app/allCourses`)
         },
         {
           path: 'courseDetails/:id',
           element: <PrivateRoute><CourseDetails></CourseDetails></PrivateRoute>,
-          loader: ({ params }) => fetch(`http://localhost:5000/courses/${params.id}`)
+          loader: ({ params }) => fetch(`https://course-server-sigma.vercel.app/courses/${params.id}`)
         },
         {
           path: 'blog',
