@@ -1,9 +1,6 @@
 import React, { useContext } from 'react';
-import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link, NavLink } from 'react-router-dom';
 import { FaMoon, FaPencilRuler, FaSun, FaUser } from "react-icons/fa";
-import auth from '../../../firebase.config';
-import { signOut } from 'firebase/auth';
 import toast from 'react-hot-toast';
 import { AuthContext } from '../../../Context/AuthProvider/AuthProvider';
 import { useDarkMode } from '../../../hooks/useDarkMode';
@@ -15,8 +12,6 @@ let activeStyle = {
 
 };
 
-
-
 const Header = () => {
     const [isDarkMode, toggleDarkMode] = useDarkMode();
     const { user, logOut } = useContext(AuthContext);
@@ -25,7 +20,6 @@ const Header = () => {
         logOut()
             .then(() => { })
             .catch(error => console.error(error))
-
     }
     return (
         <>
