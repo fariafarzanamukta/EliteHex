@@ -15,8 +15,6 @@ const HomepageCourse = () => {
                 {
                     homePageAllCourses?.slice(0, 3).map(course => <div className="transform hover:-translate-y-3 to-hover text-center secondary-bg transition duration-300 w-full mx-auto bg-gray-200 rounded-2xl">
                         <div className="card h-[550px]  bg-base-100 shadow-xl rounded-2xl">
-
-
                             <figure className="px-10 pt-10">
                                 <img src={course.img} alt="courses" className="rounded-xl h-60" />
                             </figure>
@@ -35,8 +33,6 @@ const HomepageCourse = () => {
                                     </Link>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>)
                 }
