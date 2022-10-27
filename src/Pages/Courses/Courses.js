@@ -5,9 +5,9 @@ import LeftbarMenu from './LeftBarCourseMenu/LeftbarMenu';
 
 const Courses = () => {
     const allCourses = useLoaderData();
+    
     return (
         <div>
-
             <h1 className="ml-4 md:ml-20 mt-10 text-4xl font-bold text-violet-700 font-serif">Find The Right <br />
                 Online Course For You</h1>
             <p className="ml-4 md:ml-20 text-red-400 font-serif">You don't have to struggle alone, you've got our assistance and help.</p>
