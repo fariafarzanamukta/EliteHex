@@ -72,8 +72,6 @@ const Header = () => {
                                     <button className="py-3">FAQ</button>
                                 </NavLink>
                             </h1>
-
-
                             <h1 className="btn font-bold hover:bg-rose-100   btn-ghost text-gray-800 rounded-btn mr-2">
                                 <NavLink to="/contact"
                                     style={({ isActive }) =>
@@ -88,7 +86,6 @@ const Header = () => {
                                 {
                                     user?.displayName &&
 
-
                                     <div className='flex justify-center items-center'>
 
                                         <div className='tooltip tooltip-bottom' data-tip={user?.displayName}>
@@ -100,7 +97,6 @@ const Header = () => {
                                             }
                                         </div>
                                     </div>
-
                                 }
                             </h1>
 
@@ -141,7 +137,6 @@ const Header = () => {
 
                         </div>
                     </div>
-
 
                     {/* tablate ans phone  */}
                     <div className="flex-none lg:hidden dropdown dropdown-left">
