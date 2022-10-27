@@ -3,6 +3,7 @@ import Lottie from 'lottie-react'
 import education from '../../../assets/education.json'
 
 const Banner = () => {
+    
     return (
         <div className='bg-[#b8dde3]'>
             <div className='px-4 py-10 pb-24 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-24'>
@@ -19,19 +20,8 @@ const Banner = () => {
                             <Lottie animationData={education} loop={true} />
                         </div>
                     </div>
-
                 </div>
-
             </div>
-
-
-
-
-
-
-
-
-
         </div>
     );
 };
