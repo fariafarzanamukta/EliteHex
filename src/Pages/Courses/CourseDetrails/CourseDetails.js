@@ -2,6 +2,7 @@ import React from 'react';
 import { FaBook, FaStar } from 'react-icons/fa';
 import { Link, useLoaderData } from 'react-router-dom';
 
+
 const CourseDetails = () => {
     const courseDetails = useLoaderData();
     return (
