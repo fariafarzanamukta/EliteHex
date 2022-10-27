@@ -13,8 +13,6 @@ const Course = ({ course }) => {
         <div className=' '>
             <div className="transform hover:-translate-y-3 to-hover text-center secondary-bg transition duration-300 w-full mx-auto bg-gray-200 rounded-2xl">
                 <div className="card bg-base-100 shadow-xl rounded-2xl">
-
-
                     <figure className="px-10 pt-10">
                         <img src={img} alt="courses" className="rounded-xl h-60" />
                     </figure>
@@ -33,8 +31,6 @@ const Course = ({ course }) => {
                             </NavLink>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
